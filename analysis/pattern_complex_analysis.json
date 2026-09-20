@@ -1,0 +1,100 @@
+{
+  "core": {
+    "N_total": 35,
+    "N_attempt_primary": 31,
+    "N_optional_primary": 31,
+    "AIR_final_spearman": -0.6396,
+    "AIR_written_spearman": -0.5583,
+    "AIR_pt_spearman": 0.207,
+    "written_pt_pearson": -0.6861,
+    "written_final_pearson": 0.8437,
+    "pt_final_pearson": -0.1884,
+    "within_year_AIR_Final_pearson": -0.7755,
+    "within_year_AIR_Written_pearson": -0.7678,
+    "within_year_AIR_PT_pearson": 0.2802,
+    "AIR_within_year_final_z_spearman": -0.9393
+  },
+  "attempt_core": {
+    "N": 31,
+    "attempt_final_pearson": -0.0625,
+    "attempt_final_spearman": -0.0342,
+    "attempt_written_pearson": -0.1315,
+    "attempt_pt_pearson": 0.1548,
+    "within_year_demeaned_attempt_final_pearson": 0.0567
+  },
+  "attempt_distribution": [
+    {"attempt":1,"n":4,"share_pct":12.9},
+    {"attempt":2,"n":9,"share_pct":29.03},
+    {"attempt":3,"n":9,"share_pct":29.03},
+    {"attempt":4,"n":5,"share_pct":16.13},
+    {"attempt":5,"n":4,"share_pct":12.9}
+  ],
+  "optional_concentration": {
+    "N":31,
+    "HHI":0.125911,
+    "entropy_bits":3.2966,
+    "top2_share_pct":38.71,
+    "top3_share_pct":54.84
+  },
+  "optional_summary": [
+    {"optional":"Anthropology","N":6,"share_pct":19.35,"mean_written":868.67,"mean_pt":188.5,"mean_final":1057.17,"median_final":1056.5,"attempt_N":6,"mean_attempt":2.67},
+    {"optional":"Sociology","N":6,"share_pct":19.35,"mean_written":855,"mean_pt":194.67,"mean_final":1049.67,"median_final":1048.5,"attempt_N":6,"mean_attempt":2.83},
+    {"optional":"PSIR","N":5,"share_pct":16.13,"mean_written":867.4,"mean_pt":184.8,"mean_final":1052.2,"median_final":1043,"attempt_N":5,"mean_attempt":3.4},
+    {"optional":"Economics","N":3,"share_pct":9.68,"mean_written":858.67,"mean_pt":191.67,"mean_final":1050.33,"median_final":1046,"attempt_N":3,"mean_attempt":2},
+    {"optional":"Commerce & Accountancy","N":2,"share_pct":6.45,"mean_written":870,"mean_pt":190,"mean_final":1060,"median_final":1060,"attempt_N":2,"mean_attempt":3},
+    {"optional":"Philosophy","N":2,"share_pct":6.45,"mean_written":843.5,"mean_pt":201,"mean_final":1044.5,"median_final":1044.5,"attempt_N":2,"mean_attempt":3},
+    {"optional":"Electrical Engineering","N":1,"share_pct":3.23,"mean_written":899,"mean_pt":200,"mean_final":1099,"median_final":1099,"attempt_N":1,"mean_attempt":3},
+    {"optional":"Geography","N":1,"share_pct":3.23,"mean_written":860,"mean_pt":179,"mean_final":1039,"median_final":1039,"attempt_N":1,"mean_attempt":4},
+    {"optional":"History","N":1,"share_pct":3.23,"mean_written":932,"mean_pt":173,"mean_final":1105,"median_final":1105,"attempt_N":1,"mean_attempt":2},
+    {"optional":"Medical Science","N":1,"share_pct":3.23,"mean_written":867,"mean_pt":204,"mean_final":1071,"median_final":1071,"attempt_N":1,"mean_attempt":3},
+    {"optional":"Physics","N":1,"share_pct":3.23,"mean_written":855,"mean_pt":187,"mean_final":1042,"median_final":1042,"attempt_N":1,"mean_attempt":2},
+    {"optional":"Public Administration","N":1,"share_pct":3.23,"mean_written":914,"mean_pt":158,"mean_final":1072,"median_final":1072,"attempt_N":1,"mean_attempt":4},
+    {"optional":"Zoology","N":1,"share_pct":3.23,"mean_written":882,"mean_pt":173,"mean_final":1055,"median_final":1055,"attempt_N":1,"mean_attempt":3}
+  ],
+  "annual": [
+    {"year":2019,"N":5,"mean_written":871.2,"sd_written":27.53,"mean_pt":188.4,"sd_pt":18.72,"mean_final":1059.6,"sd_final":9.18,"final_min":1050,"final_max":1072,"final_range":22,"valid_attempt_N":3,"mean_attempt":2.67,"valid_optional_N":3,"optional_distinct":3,"top_optional":"Public Administration"},
+    {"year":2020,"N":5,"mean_written":856.4,"sd_written":14.21,"mean_pt":192.6,"sd_pt":13.13,"mean_final":1049,"sd_final":4.9,"final_min":1042,"final_max":1054,"final_range":12,"valid_attempt_N":5,"mean_attempt":2.4,"valid_optional_N":5,"optional_distinct":5,"top_optional":"Anthropology"},
+    {"year":2021,"N":5,"mean_written":878.4,"sd_written":30.57,"mean_pt":176.6,"sd_pt":8.17,"mean_final":1055,"sd_final":28.47,"final_min":1036,"final_max":1105,"final_range":69,"valid_attempt_N":5,"mean_attempt":2.8,"valid_optional_N":5,"optional_distinct":4,"top_optional":"PSIR"},
+    {"year":2022,"N":5,"mean_written":878.6,"sd_written":14.67,"mean_pt":186.6,"sd_pt":8.17,"mean_final":1065.2,"sd_final":16.51,"final_min":1054,"final_max":1094,"final_range":40,"valid_attempt_N":5,"mean_attempt":2.8,"valid_optional_N":5,"optional_distinct":4,"top_optional":"Anthropology"},
+    {"year":2023,"N":5,"mean_written":879.2,"sd_written":16.87,"mean_pt":188.6,"sd_pt":9.34,"mean_final":1067.8,"sd_final":18.79,"final_min":1049,"final_max":1099,"final_range":50,"valid_attempt_N":4,"mean_attempt":2.25,"valid_optional_N":4,"optional_distinct":3,"top_optional":"Anthropology"},
+    {"year":2024,"N":5,"mean_written":839.6,"sd_written":11.17,"mean_pt":197.6,"sd_pt":9.24,"mean_final":1037.2,"sd_final":4.09,"final_min":1032,"final_max":1043,"final_range":11,"valid_attempt_N":5,"mean_attempt":3.4,"valid_optional_N":5,"optional_distinct":3,"top_optional":"PSIR"},
+    {"year":2025,"N":5,"mean_written":853.2,"sd_written":18.69,"mean_pt":201.8,"sd_pt":8.7,"mean_final":1055,"sd_final":14.68,"final_min":1038,"final_max":1071,"final_range":33,"valid_attempt_N":4,"mean_attempt":3.75,"valid_optional_N":4,"optional_distinct":4,"top_optional":"Medical Science"}
+  ],
+  "leave_one_year_out": [
+    {"excluded_year":2019,"N":30,"AIR_final_spearman":-0.6173,"AIR_written_spearman":-0.4944,"AIR_PT_spearman":0.0506,"Written_PT_pearson":-0.611},
+    {"excluded_year":2020,"N":30,"AIR_final_spearman":-0.6745,"AIR_written_spearman":-0.5652,"AIR_PT_spearman":0.201,"Written_PT_pearson":-0.6725},
+    {"excluded_year":2021,"N":30,"AIR_final_spearman":-0.6188,"AIR_written_spearman":-0.5681,"AIR_PT_spearman":0.2479,"Written_PT_pearson":-0.7266},
+    {"excluded_year":2022,"N":30,"AIR_final_spearman":-0.6555,"AIR_written_spearman":-0.5695,"AIR_PT_spearman":0.2607,"Written_PT_pearson":-0.7146},
+    {"excluded_year":2023,"N":30,"AIR_final_spearman":-0.631,"AIR_written_spearman":-0.5341,"AIR_PT_spearman":0.26,"Written_PT_pearson":-0.738},
+    {"excluded_year":2024,"N":30,"AIR_final_spearman":-0.7753,"AIR_written_spearman":-0.681,"AIR_PT_spearman":0.189,"Written_PT_pearson":-0.6576},
+    {"excluded_year":2025,"N":30,"AIR_final_spearman":-0.5708,"AIR_written_spearman":-0.5341,"AIR_PT_spearman":0.2423,"Written_PT_pearson":-0.6716}
+  ],
+  "bootstrap": {
+    "AIR_final_spearman_bootstrap_95":{"median":-0.6416,"lo95":-0.8253,"hi95":-0.3759},
+    "AIR_written_spearman_bootstrap_95":{"median":-0.5644,"lo95":-0.7912,"hi95":-0.251},
+    "Written_PT_pearson_bootstrap_95":{"median":-0.6928,"lo95":-0.855,"hi95":-0.4294}
+  },
+  "year_changes": [
+    {"from_year":2019,"to_year":2020,"mean_written_delta":-14.8,"mean_pt_delta":4.2,"mean_final_delta":-10.6,"final_range_delta":-10},
+    {"from_year":2020,"to_year":2021,"mean_written_delta":22,"mean_pt_delta":-16,"mean_final_delta":6,"final_range_delta":57},
+    {"from_year":2021,"to_year":2022,"mean_written_delta":0.2,"mean_pt_delta":10,"mean_final_delta":10.2,"final_range_delta":-29},
+    {"from_year":2022,"to_year":2023,"mean_written_delta":0.6,"mean_pt_delta":2,"mean_final_delta":2.6,"final_range_delta":10},
+    {"from_year":2023,"to_year":2024,"mean_written_delta":-39.6,"mean_pt_delta":9,"mean_final_delta":-30.6,"final_range_delta":-39},
+    {"from_year":2024,"to_year":2025,"mean_written_delta":13.6,"mean_pt_delta":4.2,"mean_final_delta":17.8,"final_range_delta":22}
+  ],
+  "rank_bands": [
+    {"year":2019,"AIR1_2_mean_final":1067.5,"AIR4_5_mean_final":1050.5,"band_gap":17},
+    {"year":2020,"AIR1_2_mean_final":1053,"AIR4_5_mean_final":1044,"band_gap":9},
+    {"year":2021,"AIR1_2_mean_final":1077.5,"AIR4_5_mean_final":1037.5,"band_gap":40},
+    {"year":2022,"AIR1_2_mean_final":1078.5,"AIR4_5_mean_final":1054.5,"band_gap":24},
+    {"year":2023,"AIR1_2_mean_final":1083,"AIR4_5_mean_final":1054,"band_gap":29},
+    {"year":2024,"AIR1_2_mean_final":1040.5,"AIR4_5_mean_final":1033.5,"band_gap":7},
+    {"year":2025,"AIR1_2_mean_final":1069,"AIR4_5_mean_final":1040,"band_gap":29}
+  ],
+  "data_quality_sensitivity": [
+    {"scenario":"PRIMARY","N":31,"Sociology_N":6,"Sociology_share_pct":19.35,"top3_share_pct":54.84,"optional_HHI":0.125911},
+    {"scenario":"ADD_ISHAN_AS_SOCIOLOGY_2ND","N":32,"Sociology_N":7,"Sociology_share_pct":21.88,"top3_share_pct":56.25,"optional_HHI":0.130859},
+    {"scenario":"ADD_ISHAN_AS_SOCIOLOGY_3RD","N":32,"Sociology_N":7,"Sociology_share_pct":21.88,"top3_share_pct":56.25,"optional_HHI":0.130859},
+    {"scenario":"ADD_3_DISPUTED_OPTIONALS","N":34,"Sociology_N":6,"Sociology_share_pct":17.65,"top3_share_pct":50,"optional_HHI":0.112457}
+  ]
+}
