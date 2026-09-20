@@ -7,8 +7,8 @@ AIR 1–5, CSE 2019–2025, N=35 candidate-year-rank observations.
 
 ## Canonical governance
 - Shared public-safe canonical dataset: `data/cse_top5_public_safe.csv`
-- Internal canonical clean dataset: `UPSC_CSE_2019_2025_CANONICAL_CLEAN.csv`
-- Canonical marks state: `UPSC_CSE_2019_2025_OFFICIAL_MARKS_CANONICAL.csv`
+- Internal/local canonical clean dataset: `UPSC_CSE_2019_2025_CANONICAL_CLEAN.csv` (not published to the public repository)
+- Internal/local canonical marks state: `UPSC_CSE_2019_2025_OFFICIAL_MARKS_CANONICAL.csv` (public-safe metadata is represented in `data/cse_top5_public_safe.csv`)
 - Canonical source register: `analysis/SOURCE_REGISTER_CANONICAL.csv`
 - Canonical data-quality log: `analysis/DATA_QUALITY_LOG_CANONICAL.csv`
 - Artifact registry: `analysis/CANONICAL_ARTIFACT_REGISTRY.md`
