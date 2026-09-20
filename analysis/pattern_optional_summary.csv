@@ -1,0 +1,14 @@
+optional,N,share_pct,mean_written,mean_pt,mean_final,median_final,attempt_N,mean_attempt
+Anthropology,6,19.35,868.67,188.5,1057.17,1056.5,6,2.67
+Sociology,6,19.35,855,194.67,1049.67,1048.5,6,2.83
+PSIR,5,16.13,867.4,184.8,1052.2,1043,5,3.4
+Economics,3,9.68,858.67,191.67,1050.33,1046,3,2
+Commerce & Accountancy,2,6.45,870,190,1060,1060,2,3
+Philosophy,2,6.45,843.5,201,1044.5,1044.5,2,3
+Electrical Engineering,1,3.23,899,200,1099,1099,1,3
+Geography,1,3.23,860,179,1039,1039,1,4
+History,1,3.23,932,173,1105,1105,1,2
+Medical Science,1,3.23,867,204,1071,1071,1,3
+Physics,1,3.23,855,187,1042,1042,1,2
+Public Administration,1,3.23,914,158,1072,1072,1,4
+Zoology,1,3.23,882,173,1055,1055,1,3
