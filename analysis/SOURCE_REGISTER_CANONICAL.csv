@@ -1,0 +1,9 @@
+source_id,exam_year,source_type,url,supports,status
+SRC2019_MARKS,2019,official_UPSC_marks,https://upsc.gov.in/sites/default/files/CSE_2019_Marks_Recommended.pdf,AIR 1–5 names and marks,VERIFIED_PRIMARY
+SRC2020_MARKS,2020,official_UPSC_marks,https://upsc.gov.in/sites/default/files/MksRcdCndts-CSM-2020-280921A.pdf,AIR 1–5 names and marks,VERIFIED_PRIMARY
+SRC2021_MARKS,2021,official_UPSC_marks,https://upsc.gov.in/sites/default/files/MkdRcdCndts-CSM-21-engl-300522.pdf,AIR 1–5 names and marks,VERIFIED_PRIMARY
+SRC2022_MARKS,2022,official_UPSC_marks,https://upsc.gov.in/sites/default/files/CSM_2022_MksRcdCandts_Eng_24052023.pdf,AIR 1–5 names and marks,VERIFIED_PRIMARY
+SRC2023_MARKS,2023,official_UPSC_marks,https://upsc.gov.in/sites/default/files/CSM2023_Mks_RecomCandi_Eng_19042024.pdf,AIR 1–5 names and marks,VERIFIED_PRIMARY
+SRC2024_MARKS,2024,official_UPSC_marks,https://upsc.gov.in/sites/default/files/MksRcdCndt-CSM-2024-Engl-250425.pdf,AIR 1–5 names and marks,VERIFIED_PRIMARY
+SRC2025_MARKS,2025,official_UPSC_marks,https://www.upsc.gov.in/sites/default/files/CSM_2025_MksRecoCandi_Eng_10032026.pdf,AIR 1–5 names and marks; retained with evidence limitation,VERIFIED_WITH_LIMITATIONS
+SRC_UPSC_MARKS_ARCHIVE,2019-2025,official_UPSC_archive,https://www.upsc.gov.in/examinations/marks-recommended-candidates/archives,Marks of Recommended Candidates archive discovery/index,VERIFIED_PRIMARY
