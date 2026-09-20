@@ -1,45 +1,13 @@
-# UPSC CSE 2028 — Phase 7 Execution Report
+# PHASE 7 EXECUTION REPORT
 
-Date: 2026-09-20
+Updated 2026-09-20.
 
-Phase 7 established the canonical local artifact layer for source/provenance preservation and expanded the observed official paper inventory using the live UPSC Previous Year Question Papers repository.
+Phase 7 now contains 176 canonical paper/source records, 180 2026 question slots, and 35 visually validated 2026 GS-I questions. Questions 1-35 passed source-image validation; 145 slots remain unresolved. No answer key has been fabricated.
 
-## Current evidence state
-- Canonical local paper/source records: 176
-- Existing 2016–2026 core records preserved: 72
-- New 2026 Main official-listing records: 104
-- Locally validated 2026 Prelims PDFs: 2
-- 2026 question slots: 180
-- Validated question records promoted: 6
-- Remaining 2026 slots: 174, explicitly open-review/blocked
-- Answer-key reconciled records: 0
-- Syllabus mappings at REVIEW_REQUIRED staging: 6
-- Advanced semantic/forecasting analysis: not run
+The official UPSC Previous Question Papers repository was used to verify the 2026 Main paper listing and the official 2026 Preliminary page was used to verify the two Preliminary question-paper documents. Historical optional/literature/compulsory availability remains partly UNVERIFIED and is not treated as complete.
 
-## Canonical policy
-The version-controlled, provenance-preserving local dataset is the source of truth. The warehouse is a staging/serving destination and is not allowed to silently replace raw evidence.
+The new warehouse now has a non-destructive research.questions_validated table containing 35 validated rows. The original research database remains preserved.
 
-## Warehouse live state
-- research.source_register: 2
-- research.quality_log: 0
-- research.pyq_question_slots: 180
-- research.top5_marks_verified: 35
-- research.top5_profiles: 0
-- research.analytics_long: 0
-- research.ingestion_manifest: 8
+Security blocker: RLS remains disabled on the existing research tables in the new warehouse. No blind policy activation was performed.
 
-Only idempotent staging/verified inserts were performed. No destructive migration was performed.
-
-## Security
-RLS remains disabled on all seven research tables. Live table inspection reports this as a critical exposure. No automatic RLS policy change was applied. Policy design requires manual approval.
-
-## Important validation rule
-Question slots, OCR blocks, and third-party transcriptions are not treated as validated questions. Raw OCR remains separate from clean/promoted records.
-
-## Next critical path
-1. Finish page-batch visual validation of the remaining 174 2026 slots.
-2. Acquire and reconcile official/secondary answer keys.
-3. Complete historical PDF acquisition and forensic validation.
-4. Apply the non-destructive validated-question schema proposal.
-5. Complete canonical warehouse migration and old/new reconciliation.
-6. Only then begin Phase 8 semantic/topic/recurrence analysis.
+Next critical path: validate GS-I 36-100, validate CSAT 1-80, reconcile answer keys, finish historical PDF acquisition/validation, migrate the complete canonical source register, reconcile old/new databases, and approve the access policy before Phase 8.
