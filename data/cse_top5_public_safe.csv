@@ -23,7 +23,7 @@ Year,AIR,Candidate ID,Candidate,Written,PT,Final,Optional,Attempts,Education,Ins
 2023,2,CSE2023_AIR2,Animesh Pradhan,892,175,1067,Sociology,1st,UNKNOWN,UNKNOWN,VERIFIED
 2023,3,CSE2023_AIR3,Donuru Ananya Reddy,875,190,1065,Anthropology,1st,B.A. (Hons.),"Miranda House, University of Delhi",VERIFIED
 2023,4,CSE2023_AIR4,P.K. Sidharth Ramkumar,874,185,1059,Anthropology,4th,UNKNOWN,UNKNOWN,VERIFIED
-2023,5,CSE2023_AIR5,Ruhani,856,193,1049,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,VERIFIED
+2023,5,CSE2023_AIR5,Ruhani,856,193,1049,UNKNOWN,UNKNOWN,UNKNOWN,VERIFIED
 2024,1,CSE2024_AIR1,Shakti Dubey,843,200,1043,PSIR,5th,B.Sc.,University of Allahabad,VERIFIED
 2024,2,CSE2024_AIR2,Harshita Goyal,851,187,1038,PSIR,3rd,B.Com,MS University of Baroda,VERIFIED
 2024,3,CSE2024_AIR3,Archit Parag Dongre,848,190,1038,Philosophy,2nd,UNKNOWN,UNKNOWN,VERIFIED
@@ -33,4 +33,4 @@ Year,AIR,Candidate ID,Candidate,Written,PT,Final,Optional,Attempts,Education,Ins
 2025,2,CSE2025_AIR2,Rajeshwari Suve M,865,202,1067,Sociology,5th,B.E.,Anna University,VERIFIED_WITH_LIMITATIONS
 2025,3,CSE2025_AIR3,Akansh Dhull,864,193,1057,Commerce & Accountancy,4th,B.Com,University of Delhi,VERIFIED_WITH_LIMITATIONS
 2025,4,CSE2025_AIR4,Raghav Jhunjhunwala,847,195,1042,Economics,3rd,B.A.,University of Delhi,VERIFIED_WITH_LIMITATIONS
-2025,5,CSE2025_AIR5,Ishan Bhatnagar,823,215,1038,CONFLICTING,CONFLICTING,B.A. LL.B. (Hons.),"National Law University, Delhi",CONFLICTING
+2025,5,CSE2025_AIR5,Ishan Bhatnagar,823,215,1038,CONFLICTING,CONFLICTING,B.A. LL.B. (Hons.),National Law University, Delhi,CONFLICTING
