@@ -1,0 +1,8 @@
+year,N,mean_written,sd_written,mean_pt,sd_pt,mean_final,sd_final,final_min,final_max,final_range,valid_attempt_N,mean_attempt,valid_optional_N,optional_distinct,top_optional
+2019,5,871.2,27.53,188.4,18.72,1059.6,9.18,1050,1072,22,3,2.67,3,3,Public Administration
+2020,5,856.4,14.21,192.6,13.13,1049,4.9,1042,1054,12,5,2.4,5,5,Anthropology
+2021,5,878.4,30.57,176.6,8.17,1055,28.47,1036,1105,69,5,2.8,5,4,PSIR
+2022,5,878.6,14.67,186.6,8.17,1065.2,16.51,1054,1094,40,5,2.8,5,4,Anthropology
+2023,5,879.2,16.87,188.6,9.34,1067.8,18.79,1049,1099,50,4,2.25,4,3,Anthropology
+2024,5,839.6,11.17,197.6,9.24,1037.2,4.09,1032,1043,11,5,3.4,5,3,PSIR
+2025,5,853.2,18.69,201.8,8.7,1055,14.68,1038,1071,33,4,3.75,4,4,Medical Science
