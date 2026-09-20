@@ -31,3 +31,23 @@ This freeze applies to the current Population A and evidence states only. It doe
 
 ## Frozen boundary
 Any future change to Population A, evidence status, canonical records, or source provenance requires an explicit governance change record and re-validation before dependent analytical artifacts are treated as current.
+
+
+## Pattern-layer freeze
+Pattern artifacts were checked against the frozen Population A and canonical evidence-state boundaries without recalculation or population change.
+
+- Pattern scope: Population A, CSE 2019–2025 AIR 1–5, N=35.
+- Marks analyses: N=35.
+- Attempts primary denominator: N=31.
+- Optional primary denominator: N=31.
+- Robustness outputs retained: bootstrap, leave-one-year-out, pairwise correlation, and sensitivity scenarios.
+- Pattern outputs remain descriptive sample findings only.
+- No causal claims, rankings, predictions, or preparation recommendations are part of this freeze.
+
+### Result
+**PATTERN_LAYER = FROZEN**
+
+This freeze is downstream of the historical evidence-layer freeze and does not authorize personalized decision-support or strategy.
+
+## Pattern-layer frozen boundary
+Any change to Population A, canonical evidence states, primary denominators, or pattern calculations requires an explicit governance change record and dependent-artifact revalidation.
