@@ -1,0 +1,12 @@
+metric,value,unit,scope
+top5_records,35.0,records,2019-2025 AIR 1-5
+optional_hhi,0.1183673469387755,index,computed from 35 official AIR 1-5 rows
+optional_top1_share,0.2,proportion,most frequent optional in this dataset
+optional_top3_share,0.5142857142857142,proportion,top 3 optionals in this dataset
+air1_final_score_slope,-1.1071428571426392,marks/year,OLS descriptive trend 2019-2025
+air1_final_score_r2,0.010391435986158992,R2,OLS descriptive trend 2019-2025
+rank_final_pearson,-0.6439895049564296,correlation,35 AIR 1-5 rows
+rank_final_spearman,-0.6395758775514148,correlation,35 AIR 1-5 rows
+question_slots_2026,180.0,slots,100 GS-I + 80 CSAT
+question_records_promoted,0.0,records,promotion gate remains closed
+core_paper_records,72.0,records,2016-2026 core inventory
