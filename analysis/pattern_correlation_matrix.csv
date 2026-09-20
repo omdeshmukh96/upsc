@@ -1,0 +1,11 @@
+variable_x,variable_y,N,pearson,spearman
+AIR,Written,35,-0.6000,-0.5583
+AIR,PT,35,0.2250,0.2070
+AIR,Final,35,-0.6440,-0.6396
+AIR,AttemptN,31,-0.1726,-0.1762
+Written,PT,35,-0.6861,-0.6836
+Written,Final,35,0.8437,0.8085
+Written,AttemptN,31,-0.1315,-0.0874
+PT,Final,35,-0.1884,-0.2079
+PT,AttemptN,31,0.1548,0.1380
+Final,AttemptN,31,-0.0625,-0.0342
