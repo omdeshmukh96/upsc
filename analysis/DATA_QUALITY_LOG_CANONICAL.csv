@@ -1,0 +1,13 @@
+issue_id,field,description,action
+DQ001,official_marks,Current source register covers individual official marks sources for 2019–2025. 2025 remains VERIFIED_WITH_LIMITATIONS.,Use year-specific official sources plus UPSC archive; do not upgrade 2025.
+DQ002,rank_2019_5,Official 2019 PDF spells JEYDEV C S; normalized project name is Jeydev C S.,Use Jeydev C S consistently.
+DQ003,aggregate_counts,Supplied aggregate counts contain missing-data assumptions.,Use recomputed known-values-only denominators.
+DQ004,estimated_attempts,Top-five averages are estimates and are not candidate-level evidence.,Excluded from analytical tables.
+DQ005,2025,2025 official marks are present but the project retains VERIFIED_WITH_LIMITATIONS.,Do not silently upgrade 2025.
+DQ006,optional,Current primary optional denominator is N=31: 3 UNKNOWN 1 CONFLICTING.,Exclude UNKNOWN and CONFLICTING from primary frequency denominator.
+DQ007,attempts,Current primary attempts denominator is N=31: 3 UNKNOWN 1 CONFLICTING.,Exclude UNKNOWN and CONFLICTING from primary attempt denominator.
+DQ008,education,21 education values are REPORTED_UNVERIFIED; 14 are UNKNOWN.,Do not convert background reporting into verified prevalence.
+DQ009,institution,20 institution values are REPORTED_UNVERIFIED; 15 are UNKNOWN.,Keep institution evidence separate from degree/discipline evidence.
+DQ010,geography,12 raw state/geography values are REPORTED_UNVERIFIED; 23 are UNKNOWN.,Do not label raw state as domicile without evidence.
+DQ011,legacy_phase3,UPSC_CSE_2019_2025_PHASE3_analysis_ready.csv contains stale optional/attempt assignments.,Classify as SUPERSEDED; do not use as current analytical input.
+DQ012,legacy_optional_filename,upsc_optional_frequency_clean.csv contains education/institution data despite its filename.,Classify as SUPERSEDED/MISLEADING; do not use for optional analysis.
